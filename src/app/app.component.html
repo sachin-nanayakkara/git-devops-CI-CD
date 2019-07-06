@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<!---
+<h3>Current customer: {{ currentCustomer }}</h3>
+<h2>Here are some links to help you start: </h2>
+<p>The sum of 1 + 1 is {{1 + 1}}.</p>
+
+<h4>{{recommended}}</h4>
+<img [src]="itemImageUrl2">
+-->
+
+<!--
+<ul>
+  <li *ngFor="let customer of myHero">{{customer.name}}</li>
+</ul>
+-->
+
+<ul>
+  <li *ngFor="let customer of myHero">{{customer.name}}</li>
+</ul>
+
+<router-outlet></router-outlet>
